@@ -1,9 +1,4 @@
-# esercizilab2
-esercizi del corso di lab2 B anno 26/27
+### qsort (6/11/25)
 
-ogni branch è un esercizio
+Ripetere gli esercizi **Coppie** e **Ordinamento di file** eseguendo l'ordinamento utilizzando la funzione di libreria `qsort(3)` invece di `mergesort`.
 
-makefile:
-CC = gcc
-CFLAGS = -std=c11 -Wall -O2 -g 
-LDLIBS = -lm
