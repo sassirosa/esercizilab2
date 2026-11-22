@@ -1,9 +1,8 @@
-# esercizilab2
-esercizi del corso di lab2 B anno 26/27
+### Stampa condizionale su ABR (17/11/26)
 
-ogni branch è un esercizio
+Aggiungere al programma  `abr_capitali` una funzione
+```
+bool pisaSE(capitale *c)
 
-makefile:
-CC = gcc
-CFLAGS = -std=c11 -Wall -O2 -g 
-LDLIBS = -lm
+```
+che prende input una capitale `c` e restituisce `true` se e solo se la città `c` si trova a Sud-Est di Pisa (che ha coordinate `43.70853`, `10.4036`). Utilizzare tale funzione insieme a `abr_stampa_cond` per stampare su `stdout` l'elenco delle capitali che si trovano a Sud-Est di Pisa. 
